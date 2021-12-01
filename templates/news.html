@@ -1,0 +1,211 @@
+   <!-- Metatags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Личный опыт">        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>atbillboard.ru &amp; Личный опыт</title>
+    <!-- Favicon -->
+    <link rel="icon" href="{{ url_for('static', path='img/core-img/favicon.ico') }}">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">    
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/classy-nav.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_fonts.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_mixin.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_responsive.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_theme_color.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/style.scss') }}">
+
+
+
+<body>
+    <!-- ##### Header Area Start ##### -->
+   {% include 'base_header.html' %}
+
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ ('/') }}"><i class="fa fa-home"></i> Главная</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Новости</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcrumb Area End ##### -->
+
+    <!-- ##### Blog Content Area Start ##### -->
+    <section class="blog-content-area section-padding-0-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Blog Posts Area -->
+                <div class="col-12 col-lg-8">
+                    <div class="blog-posts-area">
+                        <div class="row">
+                           
+                            <!-- Section Heading -->
+                            <div class="col-12">
+                                <div class="section-heading">
+                                    <h2>Новости</h2>
+                                    <p>Категория: Новости</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-blog-post mb-50">
+                                    <!-- Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <a href="#"><img src="{{ url_for('static', path='/img/atb/atbillboard_news_it.svg') }}" alt=""></a>
+                                    </div>
+                                    <!-- Content -->
+                                    <div class="post-content">
+                                        <p class="post-date"> / Новости</p>
+                                        <a href="#" class="post-title">
+                                            <h4></h4>
+                                        </a>
+                                        <p class="post-excerpt"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-blog-post mb-50">
+                                    <!-- Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <a href="#"><img src="{{ url_for('static', path='/img/atb/atbillboard_news_it_2.svg') }}" alt=""></a>
+                                    </div>
+                                    <!-- Content -->
+                                    <div class="post-content">
+                                        <p class="post-date"> / Новости</p>
+                                        <a href="#" class="post-title">
+                                            <h4></h4>
+                                        </a>
+                                        <p class="post-excerpt"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-blog-post mb-50">
+                                    <!-- Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <a href="#"><img src="{{ url_for('static', path='/img/atb/atbillboard_it_3.svg') }}" alt=""></a>
+                                    </div>
+                                    <!-- Content -->
+                                    <div class="post-content">
+                                        <p class="post-date"> / Новости</p>
+                                        <a href="#" class="post-title">
+                                            <h4></h4>
+                                        </a>
+                                        <p class="post-excerpt"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-blog-post mb-50">
+                                    <!-- Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <a href="#"><img src="{{ url_for('static', path='/img/atb/atbillboard_it_4.svg') }}" alt=""></a>
+                                    </div>
+                                    <!-- Content -->
+                                    <div class="post-content">
+                                        <p class="post-date"> / Новости</p>
+                                        <a href="#" class="post-title">
+                                            <h4></h4>
+                                        </a>
+                                        <p class="post-excerpt"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-blog-post mb-50">
+                                    <!-- Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <a href="#"><img src="{{ url_for('static', path='/img/atb/atbillboard_news_it_2.svg') }}" alt=""></a>
+                                    </div>
+                                    <!-- Content -->
+                                    <div class="post-content">
+                                        <p class="post-date">/ Новости</p>
+                                        <a href="#" class="post-title">
+                                            <h4></h4>
+                                        </a>
+                                        <p class="post-excerpt"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-blog-post mb-50">
+                                    <!-- Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <a href="#"><img src="{{ url_for('static', path='/img/atb/atbillboard_news_it.svg') }}" alt=""></a>
+                                    </div>
+                                    <!-- Content -->
+                                    <div class="post-content">
+                                        <p class="post-date"> / Новости</p>
+                                        <a href="#" class="post-title">
+                                            <h4></h4>
+                                        </a>
+                                        <p class="post-excerpt"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Pager -->
+                    {% include 'pagination.html' %}
+                </div>
+
+                <!-- Blog Sidebar Area -->
+                {% include 'base_right_body.html' %}
+            </div>
+        </div>
+    </section>
+    <!-- ##### Blog Content Area End ##### -->
+
+    <!-- ##### Instagram Area Start ##### -->
+
+    {% include 'base_footer.html' %}
+    <!-- ##### Instagram Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>

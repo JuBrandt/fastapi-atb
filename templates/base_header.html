@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    
+    
+
+    
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">    
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/classy-nav.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_fonts.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_mixin.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_responsive.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/_theme_color.scss') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/scss/style.scss') }}">
+    
+
+</head>
+
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="nikki-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="nikkiNav">
+
+                        <!-- Nav brand -->
+                        <a href="{{ ('/') }}" class="nav-brand"><img src="{{ url_for('static', path='/img/1c-fresh/logo_it_clouds.png') }}" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="{{ ('/') }}">Главная</a></li>
+                                    <li><a href="#">Услуги</a>
+                                        <ul class="dropdown">
+                                            <li><a href="{{ ('/design') }}">Дизайн сайтов</a></li>
+                                            <li><a href="{{ ('/magazine_sites') }}">Магазин сайтов</a></li>
+                                            
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Каталог</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="{{ ('/lichnyy-opyt') }}">- Личный опыт</a></li>
+                                                <li><a href="{{ ('/python_razrabotka') }}">- Python разработка</a></li>
+                                                <li><a href="{{ ('/drevnie-tekhnologii') }}">- Древние технологии</a></li>
+                                                <li><a href="#">- Кризис</a></li>
+                                                <li><a href="#">- Новости</a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href=""></a></li>
+                                                <li><a href=""></a></li>
+                                                <li><a href=""></a></li>
+                                                <li><a href=""></a></li>
+                                                <li><a href=""></a></li>
+                                                <li><a href=""></a></li>
+                                                <li><a href="#"></a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"> </a></li>
+                                                <li><a href="#"> </a></li>
+                                                <li><a href="#"> </a></li>
+                                                <li><a href="#"> </a></li>
+                                                <li><a href="#"> </a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="{{ ('/about_us') }}">О нас</a></li>
+                                    <li><a href="{{ ('/contact') }}">Контакты</a></li>
+                                </ul>
+
+                                <!-- Search Form -->
+                                <div class="search-form">
+                                    <form action="#" method="get">
+                                        <input type="search" name="search" class="form-control" placeholder="Поиск">
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+
+                                <!-- Social Button -->
+                                <div class="top-social-info">
+                                    <a href="https://www.facebook.com/itcloudsru/" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.behance.net/juliabrandt11" data-toggle="tooltip" data-placement="bottom" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://vk.com/juliabrandt11" data-toggle="tooltip" data-placement="bottom" title="Vkontakte"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/JuBrandt" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="{{ url_for('static', path='/js/jquery/jquery-2.2.4.min.js') }}"></script>
+    <!-- Popper js -->
+    <script src="{{ url_for('static', path='/js/bootstrap/popper.min.js') }}"></script>
+    <!-- Bootstrap js -->
+    <script src="{{ url_for('static', path='/js/bootstrap/bootstrap.min.js') }}"></script>
+    <!-- All Plugins js -->
+    <script src="{{ url_for('static', path='/js/plugins/plugins.js') }}"></script>
+    <!-- Active js -->
+    <script src="{{ url_for('static', path='/js/active.js') }}"></script>
+   
+
+
+</html>
